@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کاتالوگ پری گلد - پرنیان نوروزی</title>
+    <link rel="stylesheet" href="catalog.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <div id="catalog-container">
+        <!-- Page 1: Cover -->
+        <div class="catalog-page cover-page">
+            <div class="page-content">
+                <div class="cover-logo-wrapper">
+                    <img src="images/LOGO.jpg" alt="پری گلد" class="cover-logo" onerror="this.style.display='none'">
+                </div>
+                <div class="logo-large">پری گلد</div>
+                <div class="cover-subtitle">جایی که طبیعت، طلا می‌شود</div>
+                <div class="cover-design"></div>
+            </div>
+        </div>
+
+        <!-- Page 2: Brand Introduction -->
+        <div class="catalog-page">
+            <div class="page-number">۲</div>
+            <div class="page-content">
+                <h1 class="page-title">معرفی برند</h1>
+                <div class="page-text">
+                    <p><strong>پری گلد — جایی که طبیعت، طلا می‌شود</strong></p>
+                    <p>پری گلد یک برند نوآور در عرصهٔ طراحی جواهرات است که با الهام از دنیای شگفت‌انگیز حشرات، قطعاتی منحصربه‌فرد، ظریف و پر از معنا خلق می‌کند. ما با ترکیب هنر سنتی طلاکاری و نگاه مدرن به زیبایی‌های ریزِ طبیعت، جواهراتی می‌سازیم که نه‌تنها زیبا هستند، بلکه داستانی از زندگی، تبدیل و ظرافت در خود دارند.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 3: Brand Story -->
+        <div class="catalog-page">
+            <div class="page-number">۳</div>
+            <div class="page-content">
+                <h1 class="page-title">داستان برند</h1>
+                <div class="page-text">
+                    <p>همه چیز از یک نگاه به بال پروانه‌ای در نور صبحگاهی شروع شد.</p>
+                    <p>در سال‌های دانشجویی، در حالی که با ذرات طلا در کارگاه دانشگاه کار می‌کردم، متوجه شدم که حشرات—هرچند کوچک—دارای ساختاری شگفت‌انگیز، متقارن و نمادین هستند. از آن لحظه، تصمیم گرفتم جهان پنهان آن‌ها را در قالب جواهراتی از جنس طلا، به جهان معرفی کنم. پری گلد تولدی بود از عشق به طبیعت و عشق به طلا.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 4: Vision -->
+        <div class="catalog-page">
+            <div class="page-number">۴</div>
+            <div class="page-content">
+                <h1 class="page-title">ویژن پری گلد</h1>
+                <div class="page-text">
+                    <p><strong>خیال‌انگیز کردن واقعیت از طریق جواهرات.</strong></p>
+                    <p>هدف ما این است که با طراحی‌هایی که ریشه در طبیعت دارند، افراد را به دنیایی از ظرافت، تفکر و اتصال با محیط زیست ببریم. می‌خواهیم جواهر نه فقط یک اکسسوری، بلکه یک نمادِ هویت، تغییر و زیبایی باشد.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 5: Visual Identity -->
+        <div class="catalog-page">
+            <div class="page-number">۵</div>
+            <div class="page-content">
+                <h1 class="page-title">هویت بصری پری گلد</h1>
+                <div class="page-text">
+                    <p><strong>رنگ‌ها:</strong> طلایی گرم (برای اصالت)، سفید مرواریدی (برای ظرافت)، سیاه مخملی (برای کنتراست و عمق)</p>
+                    <p><strong>تایپوگرافی:</strong> فونت‌های ظریف و هنری با الهام از خطوط طبیعی</p>
+                    <p><strong>الگوها:</strong> خطوط موج‌دار، ساختارهای شش‌ضلعی (زنبور)، بال‌های متقارن (پروانه)</p>
+                    <p><strong>لوگو:</strong> ترکیبی از حلقهٔ طلایی و المان‌های حشره‌ای — نمادِ تبدیل و ظرافت</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 6: Insect Concept -->
+        <div class="catalog-page">
+            <div class="page-number">۶</div>
+            <div class="page-content">
+                <h1 class="page-title">کانسپت حشرات</h1>
+                <div class="page-text">
+                    <p><strong>حشرات: نمادهای تبدیل، استقامت و زیبایی</strong></p>
+                    <p>در فرهنگ‌های گوناگون، حشرات نمادهایی عمیق دارند:</p>
+                    <ul class="insect-list">
+                        <li><strong>سوسک خورشیدی</strong> → نماد احیا و خورشید</li>
+                        <li><strong>پروانه</strong> → نماد تغییر و رهایی</li>
+                        <li><strong>زنبور</strong> → نماد کار، همکاری و شیرینی زندگی</li>
+                        <li><strong>سوسک گونه‌های درخشان</strong> → نماد جذابیت در جزئیات</li>
+                    </ul>
+                    <p>در پری گلد، این نمادها را با وفاداری به فرم‌های طبیعی و با ظرافت طلاکاری، بازآفرینی می‌کنیم — نه به عنوان کاریکاتور، بلکه به عنوان ادای احترام به طبیعت.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 7: Product 1 - Orea -->
+        <div class="catalog-page product-page">
+            <div class="page-number">۷</div>
+            <div class="page-content">
+                <img src="images/5105339556910795623.jpg" alt="اُرِیـا" class="catalog-product-image">
+                <h1 class="product-name">«اُرِیـا»</h1>
+                <h2 class="product-type">گردنبند پروانه</h2>
+                <div class="product-details">
+                    <p><strong>الهام‌گیری:</strong> پروانهٔ اُریـا — نماد رهایی از محدودیت‌ها</p>
+                    <p><strong>جنس:</strong> طلای زرد/سفید/صورتی ۱۸ عیار</p>
+                    <p><strong>وزن تقریبی:</strong> ۸-۱۲ گرم</p>
+                    <p class="product-description">فرم بال‌ها با تکنیک دست‌کاری طلا و تراش‌های موج‌دار، حرکت پرواز را در فضای ساکن جاودانه می‌کند.</p>
+                    <p class="product-quote">"من پرواز نمی‌کنم، ولی تو مرا به پرواز درمی‌آوری."</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 8: Product 2 - Apis -->
+        <div class="catalog-page product-page">
+            <div class="page-number">۸</div>
+            <div class="page-content">
+                <img src="images/5105339556910795624.jpg" alt="آپیس" class="catalog-product-image">
+                <h1 class="product-name">«آپیس»</h1>
+                <h2 class="product-type">گوشوارهٔ زنبور</h2>
+                <div class="product-details">
+                    <p><strong>الهام‌گیری:</strong> زنبور عسل — نماد کار، زحمت و شیرینی زندگی</p>
+                    <p><strong>جنس:</strong> طلای زرد/سفید/صورتی ۱۸ عیار</p>
+                    <p><strong>وزن تقریبی:</strong> ۳-۵ گرم</p>
+                    <p class="product-description">ساختار شش‌ضلعی در گوشواره، یادآور کندو و هندسهٔ طبیعت است.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 9: Product 3 - Ra -->
+        <div class="catalog-page product-page">
+            <div class="page-number">۹</div>
+            <div class="page-content">
+                <img src="images/5105339556910795625.jpg" alt="را" class="catalog-product-image">
+                <h1 class="product-name">«را»</h1>
+                <h2 class="product-type">انگشتر سوسک خورشیدی</h2>
+                <div class="product-details">
+                    <p><strong>الهام‌گیری:</strong> سوسکی که در مصر باستان نماد خورشید و احیا بود</p>
+                    <p><strong>جنس:</strong> طلای زرد/سفید/صورتی ۱۸ عیار</p>
+                    <p><strong>وزن تقریبی:</strong> ۵-۷ گرم</p>
+                    <p class="product-description">انگشتر با تاجی از طلا، نماد قدرت درونی و تجدید حیات.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 10: Product 4 - Camaleon -->
+        <div class="catalog-page product-page">
+            <div class="page-number">۱۰</div>
+            <div class="page-content">
+                <img src="images/5105339556910795626.jpg" alt="کامه‌لیون" class="catalog-product-image">
+                <h1 class="product-name">«کامه‌لیون»</h1>
+                <h2 class="product-type">دستبند سوسک درخشان</h2>
+                <div class="product-details">
+                    <p><strong>الهام‌گیری:</strong> سوسک‌های مِتالیک جنگل‌های گرمسیری</p>
+                    <p><strong>جنس:</strong> طلای زرد/سفید/صورتی ۱۸ عیار</p>
+                    <p><strong>وزن تقریبی:</strong> ۱۵-۲۰ گرم</p>
+                    <p class="product-description">سطح طلا با بافتی مات و درخشان، بازتاب‌دهندهٔ رنگ‌های متغیر آن‌ها در نور.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 11: Product 5 - Cicada -->
+        <div class="catalog-page product-page">
+            <div class="page-number">۱۱</div>
+            <div class="page-content">
+                <img src="images/5105339556910795628.jpg" alt="سیکادا" class="catalog-product-image">
+                <h1 class="product-name">«سیکادا»</h1>
+                <h2 class="product-type">گردنبند سیکادا</h2>
+                <div class="product-details">
+                    <p><strong>الهام‌گیری:</strong> سیکادا — حشره‌ای که پس از سال‌ها در تاریکی، به سطح زمین می‌آید تا بخواند</p>
+                    <p><strong>جنس:</strong> طلای زرد/سفید/صورتی ۱۸ عیار</p>
+                    <p><strong>وزن تقریبی:</strong> ۱۰-۱۵ گرم</p>
+                    <p class="product-description">نماد صبر، ظهور و صدای درون.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 12: Product 6 - Half Wing -->
+        <div class="catalog-page product-page">
+            <div class="page-number">۱۲</div>
+            <div class="page-content">
+                <img src="images/5105339556910795629.jpg" alt="نیم‌بال" class="catalog-product-image">
+                <h1 class="product-name">«نیم‌بال»</h1>
+                <h2 class="product-type">گوشوارهٔ حشرهٔ نیم‌بال</h2>
+                <div class="product-details">
+                    <p><strong>الهام‌گیری:</strong> حشرهٔ نیم‌بال با فرم بدنی باریک</p>
+                    <p><strong>جنس:</strong> طلای زرد/سفید/صورتی ۱۸ عیار</p>
+                    <p><strong>وزن تقریبی:</strong> ۲-۴ گرم</p>
+                    <p class="product-description">فرم بدنی باریک و خطوط طولی، تبدیل به المان‌های خطیِ مینیمال در طراحی شده‌اند. طراحی برای عاشقان سادگی هوشمند.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 13: Product 7 - Morpho -->
+        <div class="catalog-page product-page">
+            <div class="page-number">۱۳</div>
+            <div class="page-content">
+                <img src="images/5105339556910795630.jpg" alt="مورفـو" class="catalog-product-image">
+                <h1 class="product-name">«مورفـو»</h1>
+                <h2 class="product-type">آویز پروانهٔ مورفو</h2>
+                <div class="product-details">
+                    <p><strong>الهام‌گیری:</strong> پروانه‌ای با بال‌های آبی متالیک</p>
+                    <p><strong>جنس:</strong> طلای زرد/سفید/صورتی ۱۸ عیار</p>
+                    <p><strong>وزن تقریبی:</strong> ۶-۹ گرم</p>
+                    <p class="product-description">استفاده از تکنیک رنگ‌آمیزی روی طلا برای بازتاب رنگ آبیِ مرموز.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 14: Product 8 - Ant -->
+        <div class="catalog-page product-page">
+            <div class="page-number">۱۴</div>
+            <div class="page-content">
+                <img src="images/5105339556910795631.jpg" alt="آنت" class="catalog-product-image">
+                <h1 class="product-name">«آنت»</h1>
+                <h2 class="product-type">انگشتر مورچه</h2>
+                <div class="product-details">
+                    <p><strong>الهام‌گیری:</strong> مورچه — نماد همکاری، استقامت و کوچکیِ قدرتمند</p>
+                    <p><strong>جنس:</strong> طلای زرد/سفید/صورتی ۱۸ عیار</p>
+                    <p><strong>وزن تقریبی:</strong> ۴-۶ گرم</p>
+                    <p class="product-description">طراحی مینیاتوری با جزئیات دقیق سر و بدن.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 15: Product 9 - Firefly -->
+        <div class="catalog-page product-page">
+            <div class="page-number">۱۵</div>
+            <div class="page-content">
+                <img src="images/5105339556910795632.jpg" alt="فیری‌فای" class="catalog-product-image">
+                <h1 class="product-name">«فیری‌فای»</h1>
+                <h2 class="product-type">دستبند کرم‌کندو</h2>
+                <div class="product-details">
+                    <p><strong>الهام‌گیری:</strong> کرم‌های درخشان شب — نماد امید در تاریکی</p>
+                    <p><strong>جنس:</strong> طلای زرد/سفید/صورتی ۱۸ عیار</p>
+                    <p><strong>وزن تقریبی:</strong> ۱۲-۱۸ گرم</p>
+                    <p class="product-description">جواهر با ذرات درخشان (الماس یا سنگ‌های صنعتی) که مانند نور کرم‌ها در شب می‌درخشند.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 16: Product 10 - Golden Wing -->
+        <div class="catalog-page product-page">
+            <div class="page-number">۱۶</div>
+            <div class="page-content">
+                <img src="images/5105339556910795634.jpg" alt="گلدن وینگ" class="catalog-product-image">
+                <h1 class="product-name">«گلدن وینگ»</h1>
+                <h2 class="product-type">ست (گردنبند + گوشواره)</h2>
+                <div class="product-details">
+                    <p><strong>الهام‌گیری:</strong> ترکیبی از بال‌های پروانه و برگ‌های گیاه</p>
+                    <p><strong>جنس:</strong> طلای زرد/سفید/صورتی ۱۸ عیار</p>
+                    <p><strong>وزن تقریبی:</strong> ۲۰-۲۵ گرم (مجموع)</p>
+                    <p class="product-description">نماد اتحاد طبیعت. طراحی متعادل بین زیبایی گیاهی و حیات حشراتی.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 17: Competitive Advantage -->
+        <div class="catalog-page">
+            <div class="page-number">۱۷</div>
+            <div class="page-content">
+                <h1 class="page-title">مزیت رقابتی</h1>
+                <div class="page-text">
+                    <ul class="advantage-list">
+                        <li><strong>طرح‌های منحصربه‌فرد:</strong> ترکیب دانش زیست‌شناسی و طراحی جواهر</li>
+                        <li><strong>دست‌ساز و محدود:</strong> هر قطعه با دقت دست‌ساز است و تنها در تیراژ محدود تولید می‌شود</li>
+                        <li><strong>معناگرایی:</strong> هر جواهر داستانی فرهنگی و نمادین دارد</li>
+                        <li><strong>پایداری:</strong> استفاده از طلای بازیافتی و فرآیندهای دوستدار محیط زیست</li>
+                        <li><strong>فناوری هوش مصنوعی:</strong> در مرحلهٔ کنسپت، برای اکتشاف فرم‌های نوین و طبیعی</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 18: Target Audience -->
+        <div class="catalog-page">
+            <div class="page-number">۱۸</div>
+            <div class="page-content">
+                <h1 class="page-title">مخاطب هدف</h1>
+                <div class="page-text">
+                    <p><strong>زنان و مردان ۲۵ تا ۴۵ ساله</strong></p>
+                    <ul class="target-list">
+                        <li>علاقه‌مند به هنر، طبیعت و فلسفهٔ زندگی</li>
+                        <li>دنبال‌کنندهٔ جواهرات معنادار، نه صرفاً لوکس</li>
+                        <li>فردی که از جزئیات لذت می‌برد و به دنبال تمایز است</li>
+                        <li>مشتریانی که به ارزش‌های پایداری و دست‌سازی اهمیت می‌دهند</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 19: AI Design Process -->
+        <div class="catalog-page">
+            <div class="page-number">۱۹</div>
+            <div class="page-content">
+                <h1 class="page-title">فرآیند طراحی با AI</h1>
+                <div class="page-text">
+                    <p>در پری گلد، هوش مصنوعی همیار خلاقیت است، نه جایگزین هنرمند.</p>
+                    <ol class="process-list">
+                        <li><strong>مرحلهٔ اول:</strong> جمع‌آوری تصاویر و داده‌های بیولوژیکی از حشرات</li>
+                        <li><strong>مرحله دوم:</strong> استفاده از AI برای ترکیب فرم‌ها، متقارن‌سازی و کشف زوایای جدید</li>
+                        <li><strong>مرحلهٔ سوم:</strong> تبدیل خروجی‌های دیجیتال به اسکچ دستی و سپس مدل‌سازی سه‌بعدی</li>
+                        <li><strong>مرحلهٔ نهایی:</strong> ساخت دستی توسط طلاکار حرفه‌ای</li>
+                    </ol>
+                    <p>این فرآیند، دقت علمی و آزادی هنری را در کنار هم قرار می‌دهد.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 20: Closing -->
+        <div class="catalog-page closing-page">
+            <div class="page-number">۲۰</div>
+            <div class="page-content">
+                <h1 class="page-title closing-title">پری گلد</h1>
+                <p class="closing-message">زیبایی در کوچک‌ترین‌ها نهفته است.</p>
+                <div class="designer-info">
+                    <p>طراح: پرنیان نوروزی</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button onclick="generatePDF()" class="btn-download">دانلود PDF</button>
+        <button onclick="window.print()" class="btn-print">چاپ</button>
+    </div>
+
+    <script src="catalog.js"></script>
+</body>
+</html>
